@@ -1,14 +1,11 @@
 import setuptools
 
-#from setuptools.config import read_configuration
-#conf_dict = read_configuration("C:/Program Files/Ramz Editions/Packaaging Examples/Aleatoryous 3/0.2/setup.cfg")
-
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="aleat3",
-    version="0.2.4.post1",
+    version="0.2.5b1",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
     description="An aleatory syntaxes package. Third generation.",
