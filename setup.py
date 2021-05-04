@@ -11,7 +11,7 @@ setuptools.setup(
     description="An aleatory syntaxes package. Third generation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com",
+    url="https://github.com/diddileija/aleat3/blob/main/README.md",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
