@@ -1,0 +1,9 @@
+# include the license and the markdown files
+include LICENSE
+include *.md
+
+# add the setup python file
+include setup.py
+
+# add the tests folder
+include tests
