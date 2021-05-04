@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="aleat3",
-    version="0.2.5rc1",
+    version="0.2.5",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
     description="An aleatory syntaxes package. Third generation.",
