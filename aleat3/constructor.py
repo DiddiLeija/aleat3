@@ -77,7 +77,7 @@ class Aleatoryous:
                 raise InitError(IE.parameter_bug(self.parser))
             else:
                 pass
-            if len(self.parser) > 500:
+            if len(self.parser) > 1000:
                 raise InitError(f""
                                 "Too large sequence for iterating (%s items found!)"%len(self.parser))
             for i in range(len(self.parser)):
