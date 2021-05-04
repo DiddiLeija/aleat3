@@ -1,6 +1,6 @@
 # include the license and the markdown files
 include LICENSE
-include *.md
+include README.md
 
 # add the setup python file
 include setup.py
