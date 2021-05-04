@@ -40,8 +40,8 @@ pip install aleat3
 
 Check out more docs here:
 
-- [General documentation](http://github.com/diddileija/aleat3/DOCUMENTATION.md)
+- [General documentation](http://DiddiLeija.github.io/aleat3/DOCUMENTATION.md)
   - Get some useful info about the package, issues, etc.
-- [Contributing page](http://github.com/diddileija/aleat3/CONTRIBUTE.md)
+- [Contributing page](http://DiddiLeija.github.io/aleat3/CONTRIBUTE.md)
   - Learn about how to contribute to aleat3.
-- [Some aleat3 examples](http://github.com/diddileija/aleat3/SOLUTIONS.md)
+- [Some aleat3 examples](http://DiddiLeija.github.io/aleat3/SOLUTIONS.md)
