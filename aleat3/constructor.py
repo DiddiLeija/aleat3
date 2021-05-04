@@ -78,8 +78,8 @@ class Aleatoryous:
             else:
                 pass
             if len(self.parser) > 1000:
-                raise InitError(f""
-                                "Too large sequence for iterating (%s items found!)"%len(self.parser))
+                raise ValueError(" "
+                                 "Too large sequence for iterating (%s items found!)"%len(self.parser))
             for i in range(len(self.parser)):
                 self.it = i + 1
                 self.dict[self.parser[i]] = self.it
