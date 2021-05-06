@@ -15,7 +15,7 @@ _a = apps
 _app = _a
 
 __author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija"
-__version__ = "0.2.6"
+__version__ = "0.2.7"
 
 
 # A short guide of the Aleatoryous Object:
