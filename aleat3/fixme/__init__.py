@@ -14,3 +14,5 @@ Troubled files for version 0.2.4
 
 console.py: The console script "aleat3" comes from here. Is there a problem?
 """
+
+# NOTE: no longer use of the "fixme" folder. It will be deleted soon, I mean.
