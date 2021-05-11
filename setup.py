@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="aleat3",
-    version="0.2.7dev1",
+    version="0.2.7b1",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
     description="An aleatory syntaxes package. Third generation.",
@@ -38,6 +38,5 @@ setuptools.setup(
         "Topic :: Software Development"
     ],
     keywords="aleatory dice coin roulette python aleat",
-    python_requires='>=3.6, <3.10',
-    install_requires=["pip>=21.0"] # Attempt to update the pip after instaling aleat3.
+    python_requires='>=3.6, <3.10'
 )
