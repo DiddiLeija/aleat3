@@ -15,7 +15,8 @@ __all__ = ["UNABLE",
 error_text = """Unable to load Colorama package. Some fuctions may not run correctly
 without this function. You can download the package at the PyPi page:
 
-            http://pypi.org/project/colorama"""
+            http://pypi.org/project/colorama
+"""
 
 try:
     from colorama import Fore, Back, Style, init
@@ -57,12 +58,11 @@ try:
 
     def output_bright(message):
         print(Style.BRIGHT + message)
-except:
+except ImportError:
     print(error_text)
     UNABLE = False
     def base(a):
-        print(a)
-        print()
+        print(a+"\n")
 
     def output_red(message=None):
         base(message)
@@ -81,6 +81,11 @@ except:
 
     def output_bright(message=None):
         base(message)
+except Exception as e:
+           import warnings
+           warnings.warn("An unexpected output ocurred: '%s'. "%str(e)
+                         "Some functions may fail without that. Report this "
+                         "to <github.com/diddileija/diddiparser/issues>", UserWarning)
 
 
 #########################################################################################################################################
