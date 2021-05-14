@@ -1,5 +1,10 @@
 # Release notes for aleat3
 
+### What's new in aleat3 0.2.8
+
+- Bug fixes
+  - Improved error handling
+
 ### What's new in aleat3 0.2.7
 
 - The `aleat3.fixme` folder has been deleted according to the issue [\#5](http://github.com/diddileija/aleat3/issues/5)
