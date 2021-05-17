@@ -9,7 +9,7 @@ by many, many ways. We are giving some examples:
 The most used mode is *aleatory.roulette*, because you can control data to be
 iterated in aleatory selection.
 
-For example, if you read a file and want to get a random line:
+For example, if you read a file `register.txt` and you want to get a random line:
 
 ```python
 # The file register.txt will contain many-many-many names. We want 5 aleatory
@@ -54,6 +54,5 @@ output between 1 and 0. View the _Using coinToBinary function_ process shown abo
 You could use the *aleatory.dice* natural properties for building complex games
 where a dice is required.
 
-For example, you can use the [tkinter](http://docs.python.org/3.8/library/tkinter) module for building
-graphical interfaces, and then use the *aleatory.dice* to create a game where
-the user can use a dice.
+For example, you can implement a GUI, and then use the *aleatory.dice* to create a game where
+the user will need a dice.
