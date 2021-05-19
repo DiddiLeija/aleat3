@@ -42,6 +42,6 @@ Check out more docs here:
 
 - [General documentation](http://DiddiLeija.github.io/aleat3/DOCUMENTATION.md)
   - Get some useful info about the package, issues, etc.
-- [Contributing page](http://DiddiLeija.github.io/aleat3/CONTRIBUTE.md)
+- [Contributing page](http://DiddiLeija.github.io/aleat3/CONTRIBUTING.md)
   - Learn about how to contribute to aleat3.
 - [Some aleat3 examples](http://DiddiLeija.github.io/aleat3/SOLUTIONS.md)
