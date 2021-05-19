@@ -1,6 +1,12 @@
 """
 Use this as a patch if you can't run the
-examples correctly:
+examples like this (take an 'exampleName' example):
+
+    from aleat3.applications.exampleName import run
+    run()
+
+If you can't, use the 'apps' object that packaged all
+the registered examples:
 
     from aleat3.applications import apps
     apps.exampleName.run()
