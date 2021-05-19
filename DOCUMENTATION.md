@@ -46,7 +46,7 @@ So, don't worry: you are handling the best version of Aleatoryous.
 #### Want to join the project?
 
 This project needs __you!__ You can be a maintainer of Aleatoryous 3. Contribute
-with ideas, code, or fixes you could find. Go to the [contribution page](http://github.com/diddileija/aleat3/blob/main/CONTRIBUTE.md) to learn
+with ideas, code, or fixes you could find. Go to the [contribution page](http://github.com/diddileija/aleat3/blob/main/CONTRIBUTING.md) to learn
 about how to contribute.
 
 ## Building Aleatory Objects
