@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The table below lists all the versions released to PyPI.
+The table below lists all the versions released to [PyPI](http://pypi.org/project/aleat3).
 
 The versions that will still receive active support (on issues, discussions, and PRs) are labeled with :white_check_mark:.
 
