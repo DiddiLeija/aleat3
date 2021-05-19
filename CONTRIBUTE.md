@@ -1,7 +1,7 @@
 # How to contribute to aleat3
 
-Do you want to collaborate with aleat3? You can do it easier since version 0.2.5! Go to the [GitHub repository](http://github.com/diddileija/aleat3/) and
-comment to be added to the project!
+Do you want to collaborate with aleat3? You can do it easier since version 0.2.5! Go to the [GitHub repository](http://github.com/diddileija/aleat3/), fork it
+and make pull requests to be added to the project! Also, you can contribute with the issue solvings (if there's any open) or open one if you have problems with the package.
 
 Also, if you want, send an email [here](mailto:dr01191115@gmail.com) to join the GitHub project and collaborate directly!
 
