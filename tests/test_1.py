@@ -13,6 +13,3 @@ except Exception as e:
     print("Error:", str(e))
     time.sleep(1)
 a = Aleatoryous("aleatory.roulette", "ba ba boo")
-
-# NOTE: This test file could be strongly modified on version 0.2.9. Please go
-# to <http://github.com/diddileija/aleat3/issues/14> for more information.
