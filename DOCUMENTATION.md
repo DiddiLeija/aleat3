@@ -37,8 +37,8 @@ pip install aleat3
 Well, you might ask: "If this package is a 3rth generation of Aleatoryous project,
 what about generations 1 and 2?".
 
-The answer is that versions [1](http://pypi.org/project/aleat1) and [2](http://pypi.org/project/aleat2) could be called
-"deprecated versions" of final package. Even when this versions where released after version [3](http://pypi.org/project/aleat3),
+The answer is that versions [aleat1](http://pypi.org/project/aleat1) and [aleat2](http://pypi.org/project/aleat2) could be called
+"deprecated versions" of final package. Even when this versions where released after version [aleat3](http://pypi.org/project/aleat3),
 they are incomplete or not functional.
 
 So, don't worry: you are handling the best version of Aleatoryous.
@@ -46,7 +46,7 @@ So, don't worry: you are handling the best version of Aleatoryous.
 #### Want to join the project?
 
 This project needs __you!__ You can be a maintainer of Aleatoryous 3. Contribute
-with ideas, code, or fixes you could find. Go to the [contribution page](http://github.com/diddileija/aleat3/blob/main/CONTRIBUTE.md) to learn
+with ideas, code, or fixes you could find. Go to the [contribution page](http://github.com/diddileija/aleat3/blob/main/CONTRIBUTING.md) to learn
 about how to contribute.
 
 ## Building Aleatory Objects
