@@ -12,4 +12,3 @@ except Exception as e:
     import time
     print("Error:", str(e))
     time.sleep(1)
-a = Aleatoryous("aleatory.roulette", "ba ba boo")
