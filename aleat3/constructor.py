@@ -53,7 +53,7 @@ class Aleatoryous:
     dict = {}
     __it = 0
 
-    def __init__(self, mode="random", extras=None):
+    def __init__(self, mode: str = "random", extras=None):
         "New since 0.2.4: the 'random' mode."
         "New since 0.2.4: 'random' option is the default"
         if mode == "random":
@@ -156,7 +156,7 @@ class Aleatoryous:
         return self.lst
 
 
-    def first_given(self, how, /, repeat=True):
+    def first_given(self, how: int, /, repeat: bool = True) -> list:
         "New since 0.0.6: You can iterate with no repetition"
         "New since 0.0.7: No-repetition operation corrected"
         "New since 0.1.3: No-repetition operation corrected"
@@ -202,7 +202,7 @@ class Aleatoryous:
 
 
 #################################################################################################################################################
-def coinToBinary(res):
+def coinToBinary(res: str) -> bool:
     if res.strip().lower() == "head":
         return 1
     elif res.strip().lower() == "tails":
@@ -211,7 +211,7 @@ def coinToBinary(res):
         _color.output_red("ERROR: You must enter an aleatory.dice string output for binary conversion. The default value will be set as None.")
         return None
 
-def coinToBool(res):
+def coinToBool(res) -> bool:
     "New since 0.0.8: From string to boolean"
     e = coinToBinary(res)
     if e == 1:
@@ -220,6 +220,7 @@ def coinToBool(res):
         return False
     else:
         _color.output_red("ERROR: You must enter an aleatory.dice string output for boolean conversion. The default value will be set as None.")
+        return None
 
 
 #################################################################################################################################################
