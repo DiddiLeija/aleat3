@@ -28,8 +28,9 @@ This object was created to give the folowing values:
    2. A 'coin' algorythm.
    3. A 'roulette' algorythm.
 
-Go to http://github.com/diddileija/aleat3 to check the code behind aleat3. This __init__ is only used when you import any file 
-on the package.
+Go to http://github.com/diddileija/aleat3 to check the code behind aleat3. 
+
+This __init__ is only used when you import the package.
 ===============================================================================================================================
 CREDITS
 
