@@ -6,18 +6,18 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions" # look for github actions by now
-    directory: "/" # Location of github-actions
+    directory: "/" # Find the location of github-actions
     schedule:
       interval: "daily" # look constantly for updates
       time: "09:30" # update at 9:30 AM 
       timezone: "America/Mexico_City" # use my latest timezone
 
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/" # look for all the pip dependencies
     schedule:
       interval: "daily"
       time: "09:30" # update at 9:30 AM 
       timezone: "America/Mexico_City" # use my latest timezone
     # Labels on pull requests for version updates only
     labels:
-      - "pip dependencies" # this might include setup.py
+      - "pip dependencies" # this includes setup.py
