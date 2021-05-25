@@ -14,8 +14,9 @@ _ie = InitError
 _a = apps
 _app = _a
 
-__author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija"
-__version__ = "0.2.8"
+# generic variables
+__author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija" # @DiddiLeija is from GitHub
+__version__ = "0.2.8" # ignore the pre-releases / post versions
 
 
 # A short guide of the Aleatoryous Object:
@@ -28,9 +29,7 @@ This object was created to give the folowing values:
    2. A 'coin' algorythm.
    3. A 'roulette' algorythm.
 
-Go to http://github.com/diddileija/aleat3 to check the code behind aleat3. 
-
-This __init__ is only used when you import the package.
+Go to http://github.com/diddileija/aleat3 to check the code behind aleat3.
 ===============================================================================================================================
 CREDITS
 
