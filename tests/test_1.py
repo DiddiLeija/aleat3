@@ -6,7 +6,7 @@ from aleat3 import Aleatoryous
 
 try:
     # this was expected to fail
-    a = Aleatoryous("aleatory.roulette", "ba ba boo")
+    a = Aleatoryous("aleatory.roulette", "a simple string")
 except Exception as e:
     # print a prettier error message and give time to check it
     import time
