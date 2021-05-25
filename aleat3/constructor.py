@@ -34,7 +34,6 @@ class Aleatoryous:
     "New since 0.0.4: Some variables deleted or recycled"
     "New since 0.0.9: More variables recycled"
     tot = 0
-    #__cache = ["Coin", "Dice", "Roulette"]
     __mode = ""
     parser = ""
     lst = []
@@ -87,7 +86,6 @@ class Aleatoryous:
             del(self.it)
         else:
             raise InitError(IE.modal_bug(self.parser))
-        #self.cache = ""
         self.__modetye = mode
         del(self.parser)
 
@@ -272,7 +270,6 @@ def module_test():
         _color.output_red("ERROR: Something's wrong in the module.")
 
     _color.output_magenta("----Test finshed----")
-    #print("----Test finished----\n")
     time.sleep(1)
     i = input("Done")
 
