@@ -24,37 +24,19 @@ try:
     UNABLE = True
     init(autoreset=True)
     def output_red(message):
-        #if not isinstance(message, "str"):
-            #raise TypeError("Can only use string data, not %s" % type(message))
-        #init()
         print(Fore.RED + message)
-        #print(Style.RESET_ALL)
 
     def output_yellow(message):
-        #if not isinstance(message, "str"):
-            #raise TypeError("Can only use string data, not %s" % type(message))
-        #init()
         print(Fore.YELLOW + message)
-        #print(Style.RESET_ALL)
 
     def output_green(message):
-        #if not isinstance(message, "str"):
-            #raise TypeError("Can only use string data, not %s" % type(message))
-        #init()
         print(Fore.GREEN + message)
-        #print(Style.RESET_ALL)
 
     def output_blue(message):
-        #if not isinstance(message, "str"):
-            #raise TypeError("Can only use string data, not %s" % type(message))
         print(Fore.BLUE + message)
-        #print(Style.RESET_ALL)
 
     def output_magenta(message):
-        #if not isinstance(message, "str"):
-            #raise TypeError("Can only use string data, not %s" % type(message))
         print(Fore.MAGENTA + message)
-        #print(Style.RESET_ALL)
 
     def output_bright(message):
         print(Style.BRIGHT + message)
