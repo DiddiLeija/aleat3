@@ -1,5 +1,0 @@
-Files for the GitHub control. This includes:
-
-- Dependabot configuration: dependabot.yml
-- Issues templates: ISSUE_TEMPLATE/*
-- CodeQL action: workflows/codeql-analysis.yml
