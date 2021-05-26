@@ -60,3 +60,7 @@ where a dice is required.
 
 For example, you can implement a GUI, and then use the *aleatory.dice* to create a game syntax where
 the user will need a dice rolling.
+
+## Package examples
+
+Use the `aleat3.applications` too view simple examples to test the aleat3 rendering.
