@@ -40,7 +40,7 @@ class diceInterface:
         self.info = Label(self.frame,
                           text="""Use the aleatory.dice syntax
 for creating dice games easier.
-If you want, use a dice image instead of tkinter.Label()""",
+If you want, use a dice image instead of a simple label""",
                           fg="black")
         self.info.grid(row=0, column=1)
         self.exit = Button(self.frame,
