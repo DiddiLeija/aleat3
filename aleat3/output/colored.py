@@ -20,7 +20,6 @@ without this function. You can download the package at the PyPi page:
 
 try:
     from colorama import Fore, Back, Style, init
-    __all__ = __all__ + ["Fore", "Back", "Style", "init"]
     UNABLE = True
     init(autoreset=True)
     def output_red(message):
