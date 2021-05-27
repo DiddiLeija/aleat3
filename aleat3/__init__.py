@@ -16,7 +16,7 @@ _app = _a
 
 # generic variables
 __author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija" # @DiddiLeija is from GitHub
-__version__ = "0.2.8" # ignore the pre-releases / post versions
+__version__ = "0.3.0" # ignore the pre-releases / post versions tags
 
 
 # A short guide of the Aleatoryous Object:
