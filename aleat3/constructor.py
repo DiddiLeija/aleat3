@@ -274,7 +274,7 @@ def module_test():
     i = input("Done")
 
 
-# ifmain function
+# __main__ level test
 if __name__ == '__main__':
     _color.output_yellow("NOTE: When using this file as __main__ level, you are executing the module test. This operation may take some minutes.")
     import time
