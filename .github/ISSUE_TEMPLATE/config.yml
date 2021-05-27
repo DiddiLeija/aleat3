@@ -1,0 +1,11 @@
+# config.yml - Config file for my issue templates
+# easily based on the GitHub docs example
+
+# don't enable blank issues
+blank_issues_enabled: false
+
+# add contact links
+contact_links:
+  - name: aleat3 author address
+    url: mailto:dr01191115@gmail.com
+    about: Contact @DiddiLeija via email, if you want.
