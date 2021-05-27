@@ -1,4 +1,4 @@
-"""At this place, we give only the messages for raising."""
+"""Generic functions to return error messages."""
 
 def parameter_bug(arg):
     return f"__init__() Invalid Syntax (Unexpected 'extras' given: {arg} when a list was expected)"
