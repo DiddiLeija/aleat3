@@ -39,7 +39,7 @@ setuptools.setup(
     keywords="aleatory dice coin roulette python aleat",
     python_requires='>=3.6, <3.10',
     project_urls={
-        "Documentation": "http://github.com/diddileija/aleat3/blob/main/README.md",
-        "Tracker": "http://github.com/diddileija/aleat3/issues"
+        "Documentation": "http://github.com/diddileija/aleat3/blob/main/README.md", # go to README
+        "Tracker": "http://github.com/diddileija/aleat3/issues" # GitHub issues page
     },
 )
