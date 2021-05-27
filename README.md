@@ -17,8 +17,10 @@ for problems where aleatory numbers or specific output are needed.
 
 This package is built to be used with Python versions 3.5 to 3.9.
 
-To enjoy the Aleatoryous materials, you must download the package from the [PyPi](http://pypi.org/project/aleat3#files)
+To enjoy the Aleatoryous materials, you must download the package from the [PyPI](http://pypi.org/project/aleat3#files)
 and install it with pip by one of this ways:
+
+- Downloading the code and install locally:
 
 ```
 pip install aleat3_[version]_[platform].whl
@@ -26,7 +28,7 @@ pip install aleat3_[version]_[platform].whl
 pip install aleat3_[version]_[platform].tar.gz
 ```
 
-Also, you can install it with Pip from Internet without downloading:
+- Or install it with Pip from Internet without downloading:
 
 ```
 pip install aleat3==[version]
