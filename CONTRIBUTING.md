@@ -8,5 +8,8 @@ Also, if you want, send an email [here](mailto:dr01191115@gmail.com) to join the
 ## What contributing means
 
 If you are going to contribute to aleat3, you have to know that this is an open source project, protected by the short 
-MIT license. If you are going to join, you'll have to be respectful with the team, and collaborate to make Aleatoryous grow
-with enhancements, proposals, etc. If you do, welcome to aleat3!
+[MIT license](http://github.com/diddileija/aleat3/blob/main/LICENSE). If you are going to join, you'll have to be respectful with 
+the team, and collaborate to make Aleatoryous grow with enhancements, proposals, etc. Also, you must agree to the 
+[Contributor Covenant Code of Conduct](http://github.com/diddileija/aleat3/blob/main/CODE_OF_CONDUCT.md).
+
+If you do, welcome to aleat3!
