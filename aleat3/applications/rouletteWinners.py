@@ -23,8 +23,6 @@ Mark
 """
     l = f.split()
 
-    #print(l)
-
     # Operate the file data
     from aleat3 import Aleatoryous
 
