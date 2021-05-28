@@ -13,8 +13,10 @@ __all__ = ["InitError",
 import random
 
 if __name__ != "__main__":
+    # called as a module
     from aleat3.output import init_errors as IE, colored as _color
 else:
+    # __main__ level availability
     from output import init_errors as IE, colored as _color
 
 
@@ -63,12 +65,15 @@ class Aleatoryous:
             extras = LIST_EXAMPLE if extras is None and mode == ROULETTE_NAME else extras# add a default list if doesn't exists and is required
             del(m)
         if mode == COIN_NAME:
+            # coin mode: "Head" or "Tails" (strings)
             self.__mode = "Coin"
             self.__it = 2
         elif mode == DICE_NAME:
+            # dice mode: from 1 to 6
             self.__mode = "Dice"
             self.__it = 6
         elif mode == ROULETTE_NAME:
+            # roulette mode: custom sequence
             self.__mode = "Roulette"
             if extras is not None:
                 self.parser = extras
