@@ -1,6 +1,8 @@
 # test_1
 # this test is supposed to fail, but we want
-# to see HOW does it fails...
+# to see HOW does it fails... for that, use a
+# try/except block to catch the exception, print
+# it in a fancy way and quit.
 
 from aleat3 import Aleatoryous
 
