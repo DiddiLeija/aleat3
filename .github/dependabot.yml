@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions" # look for github actions by now
-    directory: "/" # Find the location of github-actions
+    directory: "/" # Find the location of ".github/workflows"?
     schedule:
       interval: "daily" # look constantly for updates
       time: "09:30" # update at 9:30 AM 
