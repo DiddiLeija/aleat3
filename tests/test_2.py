@@ -4,7 +4,9 @@ from aleat3 import *
 
 # declare some variables
 extras = None
-d = {COIN_NAME: "aleatory.coin", DICE_NAME: "aleatory.dice", ROULETTE_NAME}  # a dict with the variable and the meaning
+d = {COIN_NAME: "aleatory.coin", 
+     DICE_NAME: "aleatory.dice", 
+     ROULETTE_NAME: "aleatory.roulette"}  # a dict with the variable and the meaning
 
 for item in d.keys():
     # try with each variable
@@ -22,8 +24,10 @@ for item in d.keys():
     else:
         # i supose this won't ever happen, but it could be
         print("something is wrong over there.")
-    # reset the 'extras', if needed
-    extras = None
+    # reset variables, if needed
+    if extras is not None:
+         extras = None
+    del(a1, a2) # clean the aleatoryous objects
 
 # expected output:
 
