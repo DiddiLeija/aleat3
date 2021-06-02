@@ -37,7 +37,6 @@ class Aleatoryous:
     "New since 0.0.9: More variables recycled"
     tot = 0
     __mode = ""
-    parser = ""
     lst = []
     __methods = ["__init__",
                  "__len__",
@@ -54,7 +53,7 @@ class Aleatoryous:
     dict = {}
     __it = 0
 
-    def __init__(self, mode: str = "random", extras=None) -> None:
+    def __init__(self, mode: str = "random", extras: list = None) -> None:
         "New since 0.2.4: the 'random' mode."
         "New since 0.2.4: 'random' option is the default"
         if mode == "random":
@@ -76,23 +75,23 @@ class Aleatoryous:
             # roulette mode: custom sequence
             self.__mode = "Roulette"
             if extras is not None:
-                self.parser = extras
-            if not isinstance(self.parser, list) and not isinstance(self.parser, tuple):
-                raise InitError(IE.parameter_bug(self.parser))
+                parser = extras
+            if not isinstance(parser, list) and not isinstance(parser, tuple):
+                raise InitError(IE.parameter_bug(parser))
             else:
                 pass
-            if len(self.parser) > 1000:
+            if len(parser) > 1000:
                 raise ValueError(" "
-                                 "Too large sequence for iterating (%s items found!)"%len(self.parser))
-            for i in range(len(self.parser)):
+                                 "Too large sequence for iterating (%s items found!)"%len(parser))
+            for i in range(len(parser)):
                 it = i + 1
-                self.dict[self.parser[i]] = it
-            self.__it = len(self.parser)
+                self.dict[parser[i]] = it
+            self.__it = len(parser)
             del(it)
         else:
-            raise InitError(IE.modal_bug(self.parser))
+            raise InitError(IE.modal_bug(parser))
         self.__modetye = mode
-        del(self.parser)
+        del(parser)
 
 
     def refresh(self) -> None:
