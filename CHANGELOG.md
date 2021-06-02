@@ -1,5 +1,11 @@
 # Release notes for aleat3
 
+### What's new in aleat3 0.3.0
+
+- Bug fixes
+  - Internal operation fixes
+- Documentation restructuring
+
 ### What's new in aleat3 0.2.9
 
 - Bug fixes
