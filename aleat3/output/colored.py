@@ -64,9 +64,10 @@ except ImportError:
         base(message)
 except Exception as e:
            import warnings
-           warnings.warn("An unexpected output ocurred: '%s'. "%str(e)
+           warnings.warn("An unexpected output ocurred: '%s'. "%str(e) "
                          "Some functions may fail without that. Report this "
-                         "to <github.com/diddileija/diddiparser/issues>", UserWarning)
+                         "to <github.com/diddileija/diddiparser/issues>", 
+                         UserWarning)
 
 
 #########################################################################################################################################
