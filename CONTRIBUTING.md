@@ -19,4 +19,4 @@ If you are going to contribute to aleat3, you have to know that this is an open 
 the team, and collaborate to make Aleatoryous grow with enhancements, proposals, issues, etc. Also, you must agree to the 
 [Contributor Covenant Code of Conduct](http://github.com/diddileija/aleat3/blob/main/CODE_OF_CONDUCT.md).
 
-If you do, welcome to aleat3!
+**_If you do, welcome to aleat3!_**
