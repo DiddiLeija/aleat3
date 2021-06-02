@@ -85,10 +85,10 @@ class Aleatoryous:
                 raise ValueError(" "
                                  "Too large sequence for iterating (%s items found!)"%len(self.parser))
             for i in range(len(self.parser)):
-                self.it = i + 1
-                self.dict[self.parser[i]] = self.it
+                it = i + 1
+                self.dict[self.parser[i]] = it
             self.__it = len(self.parser)
-            del(self.it)
+            del(it)
         else:
             raise InitError(IE.modal_bug(self.parser))
         self.__modetye = mode
