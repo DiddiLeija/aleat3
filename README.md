@@ -1,4 +1,4 @@
-# Aleatoryous 3
+# Aleatoryous 3 - version 0.3.0
 
 This is the 3rth Generation of aleatory objects, built by Diego
 Ramirez.
@@ -20,7 +20,7 @@ This package is built to be used with Python versions 3.5 to 3.9.
 To enjoy the Aleatoryous materials, you must download the package from the [PyPI](http://pypi.org/project/aleat3)
 and install it with pip by one of this ways:
 
-- Downloading the code and install locally:
+- Downloading the source and install locally:
 
 ```
 pip install aleat3_[version]_[platform].whl
