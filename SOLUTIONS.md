@@ -1,10 +1,10 @@
-# Making solutions with Aleatoryous - Some examples
+# Building solutions with Aleatoryous - Some examples
 
 There are several ways to applicate the aleat3 features, from math education to
 game development, you can use the Aleatoryous object and other functions included
 by many, many ways. We are giving some examples:
 
-#### Iterating with _aleatory.roulette_
+#### Making loops with _aleatory.roulette_
 
 The most used mode is *aleatory.roulette*, because you can control data to be
 iterated in aleatory selection.
@@ -53,7 +53,7 @@ As we said before, the *coinToBinary* function converts an *aleatory.coin* outpu
 to pseudo-binary numbers (1 or 0). We can use this function when you need an aleatory
 output between 1 and 0. View the _Using coinToBinary function_ process shown above.
 
-#### Building games with _aleatory.dice_
+#### Building a game syntax with _aleatory.dice_
 
 You could use the *aleatory.dice* natural properties for building complex games
 where a dice is required.
@@ -61,6 +61,6 @@ where a dice is required.
 For example, you can implement a GUI, and then use the *aleatory.dice* to create a game syntax where
 the user will need a dice rolling.
 
-## Package examples
+## `aleat3.applications` examples
 
-Use the `aleat3.applications` too view simple examples to test the aleat3 rendering.
+Use the `aleat3.applications` to view simple examples to test the aleat3 rendering.
