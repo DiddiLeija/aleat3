@@ -54,7 +54,7 @@ class Aleatoryous:
     dict = {}
     __it = 0
 
-    def __init__(self, mode: str = "random", extras=None):
+    def __init__(self, mode: str = "random", extras=None) -> None:
         "New since 0.2.4: the 'random' mode."
         "New since 0.2.4: 'random' option is the default"
         if mode == "random":
@@ -95,12 +95,12 @@ class Aleatoryous:
         del(self.parser)
 
 
-    def refresh(self):
+    def refresh(self) -> None:
         self.tot = ""
         self.lst = []
 
 
-    def single(self):
+    def single(self) -> None:
         if self.__mode == "Coin":
             self.tot = random.randint(0, 1)
             if self.tot == 1:
@@ -123,19 +123,19 @@ class Aleatoryous:
             return self.tot
 
 
-    def first_5_basic(self):
+    def first_5_basic(self) -> None:
         "New since 0.0.6: Faster operations"
         for t in [1, 2, 3, 4, 5]:
             self.lst.append(self.single())
 
 
-    def first_5(self):
+    def first_5(self) -> None:
         self.refresh()
         self.first_5_basic()
         return self.lst
 
 
-    def first_10(self):
+    def first_10(self) -> None:
         self.refresh()
         "New since 0.2.3: Faster operations"
         for t in range(2):
@@ -143,7 +143,7 @@ class Aleatoryous:
         return self.lst
 
 
-    def first_50(self):
+    def first_50(self) -> None:
         self.refresh()
         "New since 0.2.3: Faster operations"
         for t in range(10):
@@ -151,7 +151,7 @@ class Aleatoryous:
         return self.lst
 
 
-    def first_100(self):
+    def first_100(self) -> None:
         self.refresh()
         "New since 0.2.3: Faster operations"
         for t in range(20):
@@ -185,22 +185,22 @@ class Aleatoryous:
         return self.lst
 
 
-    def getmode(self):
+    def getmode(self) -> str:
         "New since 0.0.3: get the private mode."
         self.refresh()
         return self.__modetype
 
 
-    def changemode(self, mode, extras=None):
+    def changemode(self, mode, extras=None) -> None:
         "New since 0.0.3: restart the object with a new mode."
         self.__init__(mode, extras)
 
     # Some built-in functions
-    def __len__(self):
+    def __len__(self) -> int:
         return self.__it  # The number of options
-    def __dir__(self):
+    def __dir__(self) -> list:
         return self.__methods
-    def __str__(self):
+    def __str__(self) -> str:
         return "Aleatoryous " + self.__modetype
 
 
@@ -229,7 +229,7 @@ def coinToBool(res) -> bool:
 #################################################################################################################################################
 "New since 0.1.1: Module test"
 
-def module_test():
+def module_test() -> None:
     import time
     _color.output_magenta("----Module test: constructor.py----")
     #print("----Module test----\n")
