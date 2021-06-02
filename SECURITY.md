@@ -15,7 +15,7 @@ The `Development Status` label lets you know the status of the release (these ar
 | ------------------- | ------------------ | ------------------- |
 | 0.3.0               | :white_check_mark: | On development      |
 | 0.2.9               | :white_check_mark: | Latest              |
-| >= 0.2.5, <= 0.2.8  | :white_check_mark: | Stable              |
+| >= 0.2.5, <= 0.2.8  | :warning:          | To be deprecated    |
 | 0.2.4               | :x:                | Yanked (on PyPI)    |
 | > 0.2.0, <= 0.2.3   | :x:                | Unsupported         |
 | 0.1.8               | :x:                | Deleted             |
