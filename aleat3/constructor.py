@@ -1,4 +1,4 @@
-# The whole syntax of Aleatoryous3
+# The whole syntax of aleat3
 
 __all__ = ["InitError",
            "Aleatoryous",
