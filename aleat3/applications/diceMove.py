@@ -29,7 +29,9 @@ Both dices will roll and the first one who gets 50 as a result will win!
         bb += _b
         output_green("YOUR MOVE: %s" % _a)
         output_red("COMPUTER MOVE: %s" % _b)
-        if aa >= 50:
+        if aa >= 50 and bb >= 50:
+            output_bright("BOTH USERS WON WITH %s AND %s POINTS!"%(aa, bb))
+        elif aa >= 50:
             output_bright("YOU WON WITH %s POINTS!" % aa)
             break
         elif bb >= 50:
