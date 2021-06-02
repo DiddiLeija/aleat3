@@ -23,7 +23,8 @@ for item in d.keys():
         print("it is OK.")
     else:
         # i supose this won't ever happen, but it could be
-        print("something is wrong over there.")
+        print("something is wrong with '%s'."%item)
+        print(a1.getmodetype(), "!=",a2.getmodetype(), "?")
     # reset variables, if needed
     if extras is not None:
          extras = None
