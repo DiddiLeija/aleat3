@@ -17,18 +17,9 @@ for problems where aleatory numbers or specific output are needed.
 
 This package is built to be used with Python versions 3.5 to 3.9.
 
-To enjoy the Aleatoryous materials, you must download the package from the [PyPi](http://pypi.org/project/aleat3#files)
-and install it with pip by one of this ways:
+To enjoy the Aleatoryous materials, you must install it with pip:
 
 ```
-pip install aleat3_[version]_[platform].whl
-
-pip install aleat3_[version]_[platform].tar.gz
-
-pip install aleat3==[version]
-
-pip install --upgrade aleat3
-
 pip install aleat3
 ```
 
