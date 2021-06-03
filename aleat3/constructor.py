@@ -31,10 +31,10 @@ DICE_NAME = "aleatory.dice"
 ROULETTE_NAME = "aleatory.roulette"
 
 
-"New since 0.1.5: Cleaner operations"
+# New since 0.1.5: Cleaner operations
 class Aleatoryous:
-    "New since 0.0.4: Some variables deleted or recycled"
-    "New since 0.0.9: More variables recycled"
+    # New since 0.0.4: Some variables deleted or recycled
+    # New since 0.0.9: More variables recycled
     tot = 0
     __mode = ""
     lst = []
@@ -54,8 +54,8 @@ class Aleatoryous:
     __it = 0
 
     def __init__(self, mode: str = "random", extras: list = None) -> None:
-        "New since 0.2.4: the 'random' mode."
-        "New since 0.2.4: 'random' option is the default"
+        # New since 0.2.4: the 'random' mode.
+        # New since 0.2.4: 'random' option is the default
         if mode == "random":
             # random mode
             m = random.randint(1, 3)
@@ -123,7 +123,7 @@ class Aleatoryous:
 
 
     def first_5_basic(self) -> None:
-        "New since 0.0.6: Faster operations"
+        # New since 0.0.6: Faster operations
         for t in [1, 2, 3, 4, 5]:
             self.lst.append(self.single())
 
@@ -136,7 +136,7 @@ class Aleatoryous:
 
     def first_10(self) -> None:
         self.refresh()
-        "New since 0.2.3: Faster operations"
+        # New since 0.2.3: Faster operations
         for t in range(2):
             self.first_5_basic()
         return self.lst
@@ -144,7 +144,7 @@ class Aleatoryous:
 
     def first_50(self) -> None:
         self.refresh()
-        "New since 0.2.3: Faster operations"
+        # New since 0.2.3: Faster operations
         for t in range(10):
             self.first_5_basic()
         return self.lst
@@ -152,16 +152,16 @@ class Aleatoryous:
 
     def first_100(self) -> None:
         self.refresh()
-        "New since 0.2.3: Faster operations"
+        # New since 0.2.3: Faster operations
         for t in range(20):
             self.first_5_basic()
         return self.lst
 
 
     def first_given(self, how: int, /, repeat: bool = True) -> list:
-        "New since 0.0.6: You can iterate with no repetition"
-        "New since 0.0.7: No-repetition operation corrected"
-        "New since 0.1.3: No-repetition operation corrected"
+        # New since 0.0.6: You can iterate with no repetition
+        # New since 0.0.7: No-repetition operation corrected
+        # New since 0.1.3: No-repetition operation corrected
         self.refresh()
         if not isinstance(how, type(1)):
             raise SyntaxError(f"Expected integers, %s given" % type(how))
@@ -185,13 +185,13 @@ class Aleatoryous:
 
 
     def getmode(self) -> str:
-        "New since 0.0.3: get the private mode."
+        # New since 0.0.3: get the private mode.
         self.refresh()
         return self.__modetype
 
 
     def changemode(self, mode, extras=None) -> None:
-        "New since 0.0.3: restart the object with a new mode."
+        # New since 0.0.3: restart the object with a new mode.
         self.__init__(mode, extras)
 
     # Some built-in functions
@@ -226,7 +226,7 @@ def coinToBool(res) -> bool:
 
 
 #################################################################################################################################################
-"New since 0.1.1: Module test"
+# New since 0.1.1: Module test
 
 def module_test() -> None:
     import time
