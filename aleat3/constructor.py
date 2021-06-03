@@ -61,7 +61,7 @@ class Aleatoryous:
             m = random.randint(1, 3)
             mode = COIN_NAME if m == 1  else DICE_NAME
             mode = ROULETTE_NAME if m == 3 else mode
-            extras = LIST_EXAMPLE if extras is None and mode == ROULETTE_NAME else extras# add a default list if doesn't exists and is required
+            extras = LIST_EXAMPLE if extras is None and mode == ROULETTE_NAME else extras # add a default list if doesn't exists and is required
             del(m)
         if mode == COIN_NAME:
             # coin mode: "Head" or "Tails" (strings)
@@ -231,7 +231,6 @@ def coinToBool(res) -> bool:
 def module_test() -> None:
     import time
     _color.output_magenta("----Module test: constructor.py----")
-    #print("----Module test----\n")
     print("Testing module...\n")
 
     try:
