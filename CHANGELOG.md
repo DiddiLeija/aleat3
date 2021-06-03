@@ -5,6 +5,8 @@
 - Bug fixes
   - Internal operation fixes
 - Documentation restructuring
+  - Some contents were moved
+- The `aleat3.output.init_errors` will no longer support module tests, according to PR [\#28](http://github.com/diddileija/aleat3/pull/28)
 
 ### What's new in aleat3 0.2.9
 

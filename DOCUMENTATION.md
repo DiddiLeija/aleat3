@@ -240,7 +240,6 @@ Only this files are available for testing:
 
 - aleat3/constructor.py
 - aleat3/output/colored.py
-- aleat3/output/init_errors.py
 
 (Other files are private or `__init__` scripts).
 
