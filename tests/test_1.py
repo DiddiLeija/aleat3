@@ -14,3 +14,8 @@ except Exception as e:
     import time
     print("Error:", str(e))
     time.sleep(1)
+
+# Expected output:
+
+# $ test_1.py
+# Error: ...
