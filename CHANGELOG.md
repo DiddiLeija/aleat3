@@ -7,6 +7,8 @@
 - Documentation restructuring
   - Some contents were moved
 - The `aleat3.output.init_errors` will no longer support module tests, according to PR [\#28](http://github.com/diddileija/aleat3/pull/28)
+- Trivial fixes
+  - `__author__` is now on `aleat3.__init__` (not `aleat3.constructor`)
 
 ### What's new in aleat3 0.2.9
 
