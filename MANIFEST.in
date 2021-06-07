@@ -7,3 +7,6 @@ include setup.py
 
 # add the tests folder
 include tests
+
+# don't look for the GitHub stuff
+exclude .github
