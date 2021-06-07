@@ -4,6 +4,8 @@
 # try/except block to catch the exception, print
 # it in a fancy way and quit.
 
+__author__ = "Diego Ramirez"
+
 from aleat3 import Aleatoryous
 
 try:
