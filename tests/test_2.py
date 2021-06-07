@@ -1,5 +1,8 @@
 # check if using the variables "*_NAME" (from version 0.2.5 
 # and added by the 'import *') are well implemented.
+
+__author__ = "Diego Ramirez"
+
 from aleat3 import *
 
 # declare some variables
