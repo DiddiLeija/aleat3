@@ -12,10 +12,10 @@ __all__ = ["UNABLE",
            "output_magenta",
            "output_bright"]
 
-error_text = """Unable to load Colorama package. Some fuctions may not run correctly
-without this function. You can download the package at the PyPi page:
+error_text = """Unable to load Colorama. Some fuctions may not run correctly
+without this package. You can download the package with pip:
 
-            http://pypi.org/project/colorama
+            pip install colorama
 """
 
 try:
