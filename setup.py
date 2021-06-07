@@ -42,5 +42,5 @@ setuptools.setup(
         "Documentation": "http://github.com/diddileija/aleat3/blob/main/README.md", # go to README
         "Tracker": "http://github.com/diddileija/aleat3/issues" # GitHub issues page
     },
-    install_requires = ["colorama"] # it will be needed
+    install_requires = ["colorama"] # it will be needed on "aleat3.output.applications"
 )
