@@ -18,6 +18,3 @@ updates:
       interval: "daily"
       time: "09:30" # update at 9:30 AM 
       timezone: "America/Mexico_City" # use my latest timezone
-    # Labels on pull requests for version updates only
-    labels:
-      - "pip dependencies" # this includes setup.py
