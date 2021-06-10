@@ -4,6 +4,7 @@
 
 - Bug fixes
   - Internal operation fixes
+  - `aleat3.output.colored` fixes
 - Documentation restructuring
   - Some contents were moved
 - Trivial fixes
