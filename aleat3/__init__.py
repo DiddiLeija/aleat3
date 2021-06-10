@@ -1,5 +1,5 @@
-# Ramz Editions Copyright (c) 2020 Copyright Holder All Rights Reserved.
-"New since 0.2.3: __main__ level is now safe!"
+# Diego Ramirez (c) 2021 Copyright Holder All Rights Reserved.
+# New since 0.2.3: __main__ level is now safe!
 if __name__ == '__main__':
     from constructor import *
     from applications import apps
@@ -17,23 +17,6 @@ _app = _a
 # generic variables
 __author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija" # @DiddiLeija is from GitHub
 __version__ = "0.3.0" # ignore the pre-releases / post versions tags
-
-
-# A short guide of the Aleatoryous Object:
-"""The Diddi's Aleatoryous Project.
-===============================================================================================================================
-INTRODUCTION
-
-This object was created to give the folowing values:
-   1. A 'dice' algorythm.
-   2. A 'coin' algorythm.
-   3. A 'roulette' algorythm.
-
-Go to http://github.com/diddileija/aleat3 to check the code behind aleat3.
-===============================================================================================================================
-CREDITS
-
-Created by Diego Ramirez and the Ramz Editions (c) Team. 2020 All rights reserved."""
 
 if __name__ == '__main__':
     import time
