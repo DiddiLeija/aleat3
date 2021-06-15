@@ -20,7 +20,7 @@ from aleat3.applications import (diceInterface,
                     diceMove)
 
 class Transfer:
-    def __init__(self):
+    def __init__(self) -> None:
         self.diceInterface = diceInterface
         self.rouletteWinners = rouletteWinners
         self.coinWinners = coinWinners

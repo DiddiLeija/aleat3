@@ -3,7 +3,7 @@
 if __name__ == '__main__':
     raise Exception(f"Unable to load application file as __main__ level")
 
-def run():
+def run() -> None:
     from aleat3 import Aleatoryous, coinToBinary
     from aleat3.output.colored import output_bright
 
