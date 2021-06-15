@@ -190,7 +190,7 @@ class Aleatoryous:
         return self.__modetype
 
 
-    def changemode(self, mode, extras=None) -> None:
+    def changemode(self, mode: str, extras: list = None) -> None:
         # New since 0.0.3: restart the object with a new mode.
         self.__init__(mode, extras)
 
@@ -213,7 +213,7 @@ def coinToBinary(res: str) -> bool:
         _color.output_red("ERROR: You must enter an aleatory.dice string output for binary conversion. The default value will be set as None.")
         return None
 
-def coinToBool(res) -> bool:
+def coinToBool(res: str) -> bool:
     "New since 0.0.8: From string to boolean"
     e = coinToBinary(res)
     if e == 1:
