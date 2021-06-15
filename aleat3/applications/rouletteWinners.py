@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     raise Exception(f"Unable to load application file as __main__ level")
 
-def run():
+def run() -> None:
     f = """
 Idelette
 John
