@@ -5,8 +5,9 @@
 - Bug fixes
   - Internal operation fixes
   - `aleat3.output.colored` fixes
-- Documentation restructuring
-  - Some contents were moved
+- Documentation rewriting
+  - Some contents were migrated or removed
+  - Some contents were highlighted
 - Trivial fixes
   - `__author__` is now on `aleat3.__init__` (not `aleat3.constructor`)
   - The `aleat3.output.init_errors` will no longer support module tests, according to PR [\#28](http://github.com/diddileija/aleat3/pull/28)
@@ -32,7 +33,7 @@
 
 ### What's new in aleat3 0.2.5
 
-- Special progress: we are now on [GitHub](http://github.com/diddileija/aleat3)!
+- _**Special progress**_: we are now on [GitHub](http://github.com/diddileija/aleat3)!
   - This change came with even more changes:
     - There are Markdown documents (like this one!)
     - New 'tests' folder.
