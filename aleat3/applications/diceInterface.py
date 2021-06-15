@@ -12,14 +12,14 @@ __author__ = "Diego Ramirez (dr01191115@gmail.com) @DiddiLeija"
 class diceInterface:
     "A simple interface that uses aleatory.dice mode and Tkinter library."
 
-    def __init__(self, root, title="aleatory.dice: Tkinter example"):
+    def __init__(self, root: Tk, title: str = "aleatory.dice: Tkinter example") -> None:
         self.root = root
         self.root.title(title)
         self.root.maxsize(500, 110)
         self.dice_s = Aleatoryous("aleatory.dice")
         self.principal()
 
-    def principal(self):
+    def principal(self) -> None:
         self.frame = Frame(self.root)
         self.frame.grid()
         self.dice_i = Label(self.frame,
@@ -51,12 +51,12 @@ If you want, use a dice image instead of a simple label""",
                            anchor="s")
         self.exit.grid(row=1, column=1)
 
-    def roll_dice(self):
+    def roll_dice(self) -> None:
         tot = str(self.dice_s.single())
         self.dice_i.config(text=tot, fg="blue")
 
 
-def run(title="aleatory.dice: Tkinter example"):
+def run(title: str = "aleatory.dice: Tkinter example") -> None:
     _r = Tk()
     _inst = diceInterface(_r, title)
     _r.mainloop()
