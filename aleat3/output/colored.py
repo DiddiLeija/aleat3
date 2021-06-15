@@ -42,26 +42,18 @@ try:
 except ImportError:
     print(error_text)
     UNABLE = False
-    def base(a: str) -> None:
+    def base(a: str = "") -> None:
         print(a+"\n")
-
-    def output_red(message: str = None) -> None:
-        base(message)
-
-    def output_green(message: str = None) -> None:
-        base(message)
-
-    def output_yellow(message: str = None) -> None:
-        base(message)
-
-    def output_blue(message: str = None) -> None:
-        base(message)
-
-    def output_magenta(message: str = None) -> None:
-        base(message)
-
-    def output_bright(message: str = None) -> None:
-        base(message)
+    # new: all the "patch functions" are just aliases
+    # of "base()"...
+    output_red = base
+    output_green = base
+    output_yellow = base
+    output_blue = base
+    output_magenta = base
+    output_bright = base
+    # doing this will let us to simplify all
+    # the annotation/documentation works.
 except Exception as e:
     import warnings
     warnings.warn("An unexpected error ocurred: '%s'. "%str(e)
