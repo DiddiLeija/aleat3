@@ -22,45 +22,45 @@ try:
     from colorama import Fore, Back, Style, init
     UNABLE = True
     init(autoreset=True)
-    def output_red(message):
+    def output_red(message: str) -> None:
         print(Fore.RED + message)
 
-    def output_yellow(message):
+    def output_yellow(message: str) -> None:
         print(Fore.YELLOW + message)
 
-    def output_green(message):
+    def output_green(message: str) -> None:
         print(Fore.GREEN + message)
 
-    def output_blue(message):
+    def output_blue(message: str) -> None:
         print(Fore.BLUE + message)
 
-    def output_magenta(message):
+    def output_magenta(message: str) -> None:
         print(Fore.MAGENTA + message)
 
-    def output_bright(message):
+    def output_bright(message: str) -> None:
         print(Style.BRIGHT + message)
 except ImportError:
     print(error_text)
     UNABLE = False
-    def base(a):
+    def base(a: str) -> None:
         print(a+"\n")
 
-    def output_red(message=None):
+    def output_red(message: str = None) -> None:
         base(message)
 
-    def output_green(message=None):
+    def output_green(message: str = None) -> None:
         base(message)
 
-    def output_yellow(message=None):
+    def output_yellow(message: str = None) -> None:
         base(message)
 
-    def output_blue(message=None):
+    def output_blue(message: str = None) -> None:
         base(message)
 
-    def output_magenta(message=None):
+    def output_magenta(message: str = None) -> None:
         base(message)
 
-    def output_bright(message=None):
+    def output_bright(message: str = None) -> None:
         base(message)
 except Exception as e:
     import warnings
@@ -73,7 +73,7 @@ except Exception as e:
 #########################################################################################################################################
 "New since 0.1.1: Module test"
 
-def module_test():
+def module_test() -> None:
     output_magenta("----Module Test: colored.py----")
     print("Available colors demostration:")
     output_red(" -Red output")
