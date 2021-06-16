@@ -42,7 +42,7 @@ try:
 except ImportError:
     print(error_text)
     UNABLE = False
-    def base(a: str = "") -> None:
+    def base(a: str) -> None:
         print(a+"\n")
     # new: all the "patch functions" are just aliases
     # of "base()"...
