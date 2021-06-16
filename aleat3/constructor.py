@@ -11,6 +11,7 @@ __all__ = ["InitError",
 
 
 import random
+from typing import Optional
 
 if __name__ != "__main__":
     # called as a module
@@ -53,7 +54,7 @@ class Aleatoryous:
     dict = {}
     __it = 0
 
-    def __init__(self, mode: str = "random", extras: list = None) -> None:
+    def __init__(self, mode: str = "random", extras: Optional[list] = None) -> None:
         # New since 0.2.4: the 'random' mode.
         # New since 0.2.4: 'random' option is the default
         if mode == "random":
@@ -190,7 +191,7 @@ class Aleatoryous:
         return self.__modetype
 
 
-    def changemode(self, mode: str, extras: list = None) -> None:
+    def changemode(self, mode: str, extras: Optional[list] = None) -> None:
         # New since 0.0.3: restart the object with a new mode.
         self.__init__(mode, extras)
 
