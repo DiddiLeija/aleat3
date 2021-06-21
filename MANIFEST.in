@@ -8,7 +8,8 @@ include CONTRIBUTING.md
 include setup.py
 
 # add the tests folder
-include tests
+include tests/*
 
 # don't look for the GitHub stuff
-exclude .github
+exclude .github/*
+exclude .gitignore
