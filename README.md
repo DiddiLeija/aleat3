@@ -47,3 +47,7 @@ Check out more docs here:
 - [Contributing page](http://DiddiLeija.github.io/aleat3/blob/main/CONTRIBUTING.md)
   - Learn about how to contribute to aleat3.
 - [Some aleat3 examples](http://DiddiLeija.github.io/aleat3/blob/main/SOLUTIONS.md)
+
+## License
+
+This project is licensed under the [MIT License](http://github.com/diddileija/aleat3/blob/main/LICENSE)
